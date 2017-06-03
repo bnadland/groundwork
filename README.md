@@ -1,6 +1,6 @@
 # groundwork
 
-Golang + Foundation 6 prototyping staring point
+Golang + Foundation 6 prototyping starting point
 
 
 Prerequisites:
