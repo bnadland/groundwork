@@ -1,0 +1,6 @@
+app
+*.swp
+node_modules
+public
+yarn-error.log
+found
