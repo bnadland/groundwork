@@ -1,0 +1,3 @@
+www: CompileDaemon -exclude-dir=templates -exclude-dir=node_modules -exclude-dir=public -log-prefix=false -command="./{{Name}} server" -build="go build -o ./{{Name}} ./cmd"
+public: packr2 clean && webpack -w
+test: CompileDaemon -exclude-dir=templates -exclude-dir=node_modules -exclude-dir=public -log-prefix=false -command="go test -cover"
